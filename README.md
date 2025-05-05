@@ -1,6 +1,12 @@
 This is a drawing pad where you are able to draw a picture with color palette and other utensil features included.
 You are alse able to save a picture locally, which will be stored as a .png file.
 
+
+## Live Demo
+
+URL: https://ewantasker.github.io/drawing-pad/
+
+
 ## Getting Started
 
 1. Install the packages:
