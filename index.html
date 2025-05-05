@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drawing Pad</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/svg+xml" href="/assets/images/drawing-icon.svg" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body class="bg-gray-100 p-4">
+  <div class="flex row mb-4 justify-center">
+    <div id="colorPalette" class="flex col gap-2 mr-5">
+      <button class="w-6 h-6 rounded-full bg-black" data-color="#000000"></button>
+      <button class="w-6 h-6 rounded-full bg-red-500" data-color="#ef4444"></button>
+      <button class="w-6 h-6 rounded-full bg-green-500" data-color="#22c55e"></button>
+      <button class="w-6 h-6 rounded-full bg-blue-500" data-color="#3b82f6"></button>
+      <button class="w-6 h-6 rounded-full bg-yellow-400" data-color="#facc15"></button>
+      <button class="w-6 h-6 rounded-full bg-white border" data-color="#ffffff"></button>
+      <input type="color" id="customColor" class="ml-2 border p-0 w-6 h-6 round" />
+    </div>
+
+    <div class="flex col mr-5">
+      <button id="eraseButton" class="bg-orange-500 text-white px-4 p-2 rounded">
+        Erase
+      </button>
+    </div>
+
+    <div class="flex col mr-5">
+      <button id="clear" class="bg-red-500 text-white px-4 py-2 rounded">
+        Clear
+      </button>
+    </div>
+
+    <div class="flex col gap-2">
+      <button id="saveButton" class="bg-green-500 text-white px-4 py-2 rounded">
+        Save
+      </button>
+    </div>
+  </div>
+
+  <div class="flex justify-center">
+    <canvas id="canvas" width="800" height="500" class="border border-gray-400 bg-white"></canvas>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
