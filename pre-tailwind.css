@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+canvas {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/*# sourceMappingURL=pre-tailwind.css.map */
