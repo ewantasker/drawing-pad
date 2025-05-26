@@ -7,6 +7,12 @@ You are alse able to save a picture locally, which will be stored as a .png file
 URL: https://ewantasker.github.io/drawing-pad/
 
 
+## Tech Stack
+- JavaScript
+- HTML
+- Tailwind CSS
+
+
 ## Getting Started
 
 1. Install the packages:
